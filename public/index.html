@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <h1>Buscador de cartas</h1>
+    <form id="form" action="#" method="GET">
+        <input type="text" name="name" placeholder="Ingrese el nombre de la carta">
+        <select name="region" id="region">
+            <option value="" hidden="hidden">Región</option>
+            <option value="Demacia">Demacia</option>
+            <option value="Freljord">Freljord</option>
+            <option value="Jonia">Jonia</option>
+            <option value="Noxus">Noxus</option>
+            <option value="Piltover y Zaun">Piltover y Zaun</option>
+            <option value="Islas de la Somba">Islas de la Somba</option>
+        </select>
+        <select name="type" id="type">
+            <option value="" hidden="hidden">Tipo</option>
+            <option value="Unidad">Unidad</option>
+            <option value="Hechizo">Hechizo</option>
+        </select>
+        <select name="rarity" id="rarity">
+            <option value="" hidden="hidden">Rareza</option>
+            <option value="COMÚN">Común</option>
+            <option value="RARA">Rara</option>
+            <option value="ÉPICA">Épica</option>
+            <option value="Campeón">Campeón</option>
+        </select>
+        <select name="cost" id="cost">
+            <option value="" hidden="hidden">Coste de maná</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <button type="submit">Buscar</button>
+    </form>
+
+    <div id="div-deck">
+    </div>
+
+    <script src="/js/index.js"></script>
+</body>
+</html>
