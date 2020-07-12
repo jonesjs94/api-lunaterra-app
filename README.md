@@ -2,6 +2,8 @@
 
 API para obtener cartas del juego LEYENDS OF LUNATERRA.
 
+https://api-lunaterra-app.herokuapp.com/
+
 Envía una petición GET a "/carta" con los siguientes parámetros (todos opcionales y deben ser escritas como lo explico a continuación):
 
 name="" ---> Nombre de la carta. Si quieres encontrar solo por su nombre, se ignorará el resto de los parámetros. Ej: Lucian, Braum, etc.
